@@ -29,7 +29,7 @@ mongoose
 app.get("/", (req, res) => res.json({ success: "very very true" }));
 
 // Serve static assert if in production
-if (process.env.NODE_ENV === "production") {
+if ((process.env.NODE_ENV = "production")) {
   // Set static folder
   app.use(express.static("client/build"));
 
