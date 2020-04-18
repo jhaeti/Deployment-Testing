@@ -1,7 +1,7 @@
 {
   "name": "express-starter-pack",
   "version": "1.0.0",
-  "description": "Template for starting any project",
+  "description": "A complete mern application",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
